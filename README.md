@@ -1,6 +1,6 @@
 ---
-title: FastAPI
-description: A FastAPI server
+title: Breeze Assignment
+description: An endpoint with Python to reverse a string
 tags:
   - fastapi
   - python
@@ -22,6 +22,12 @@ This example starts up a [FastAPI](https://fastapi.tiangolo.com/) server.
 - Clone locally and install packages with Pip using `pip install -r requirements.txt` or Poetry using `poetry install`
 - Connect to your project using `railway link`
 - Run locally using `uvicorn main:app --reload`
+
+## :rocket: Endpoints
+
+- '/': The root endpoint which shows a welcome message!
+- '/reverse': The POST endpoint where users can enter a string and get the reversed string in response.
+- '/docs': Opens the Swagger Interactive UI to try out the APIs.
 
 ## 📝 Notes
 
